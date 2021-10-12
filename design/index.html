@@ -32,8 +32,22 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
   <style>
+    #projects {
+      margin-top:0em;
+      padding-top:2em;
+    }
+    #about {
+      padding-top:1em;
+      margin-top:0em;
+    }
+    a {
+      color: #b94331 !important;
+    }
+    .projects-section .featured-text {
+      border-color: #b94331;
+    }
     .nav-item {
-      text-shadow: 1px 1px 1px #fff, 1px 1px 10px #64a19d;
+      text-shadow: 1px 1px 1px #fff, 1px 1px 10px #b94331;
     }
     .wite { color: whitesmoke}
   </style>
@@ -48,9 +62,9 @@
     <section id="about" class="about-section text-center" style="background-color:#6E747F">
       <div class="container" style="min-width: fit-content">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
+          <div class="col-lg-8 mx-auto"><span><img src="../img/logoweb848.png" width="150"></span>
             <h2 class="text-white mb-4">Web & Logo Design Portfolio</h2>
-            <p class="text-white-50"></p>
+           
             <p class="lead mb-5 text-white-50">
               I provide web design services from front-end to full-stack development, including CMS: <font class="wite">AWS, WordPress, Wix, </font>and <font class="wite">Squarespace</font>. 
               For back-end and web applications I use <font class="wite">LAMP, Python, Flask, Node.js,</font> and <font class="wite">Django</font>.  
@@ -70,7 +84,8 @@
     <section id="projects" class="projects-section bg-light">
       <div class="container">
         <div class="col-lg-8 mx-auto">
-          <h4 class="text-black mb-4">Recent Websites</h2>
+         <h3 class="text-black mb-4" style="text-decoration: bold; font-family: Nunito;
+          letter-spacing: .3em;">Recent Websites</h2>
         </div>
         <!-- Blender Project Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
@@ -102,11 +117,12 @@
           </div>
         </div><br>
         <!-- Falconer Project Row -->        <div class="col-lg-8 mx-auto">
-          <h4 class="text-black mb-4">Product & Web Logos</h2>
+          <h3 class="text-black mb-4" style="font-family: Nunito;
+          letter-spacing: .3em;">Product & Web Logos</h2>
         </div>
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div class="col-xl-8 col-lg-7">
-            <img class="img-fluid mb-3 mb-lg-0" src="img/logos.jpg" alt="logos">
+          <div class="col-xl-8 col-lg-7" style="color:orange">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/logos.jpg" alt="logos" style="border: 5px solid #161616">
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">

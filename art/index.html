@@ -32,15 +32,22 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
   <style>
+    .projects-section {
+      padding-top:2em;
+      padding-bottom:2em;
+    }
     .nav-item {
-      text-shadow: 1px 1px 1px #fff, 1px 1px 10px #64a19d;
+      text-shadow: 1px 1px 1px #fff, 1px 1px 10px #b94331;
     }
     body{margin: 0}
+    a {
+      color: #b94331 !important;
+    }
 .container1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  background: teal;
+  background: #b94331;
   padding: 15px;
 }
 .container1 img {
@@ -55,7 +62,10 @@
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 } */
+img {
+  object-fit: cover;
 
+}
 
 
 
@@ -65,14 +75,15 @@
 <body>
   <div class="container-fluid" style="background-color: #161616; padding:0; margin:0; min-width: fit-content">
     <span style="float: left; padding-top:1em; padding-left:1em;"><a href="../index.html"><i
-          class="fa fa-arrow-circle-left fa-2x" aria-hidden="true" style="color: #6E747F"></i></a></span>
+          class="fa fa-arrow-circle-left fa-2x" aria-hidden="true" style="color: #b94331"></i></a></span>
 
     <!-- About Section -->
-    <section id="about" class="about-section text-center" style="background-color: #6E747F;">
+    <section id="about" class="about-section text-center" style="background-color: #6E747F; padding-top:2em; margin-top: 0em;">
       <div class="container" style="min-width: fit-content">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-white mb-4">3D art / animation / modeling</h2>
+            <h2 class="text-white mb-4"><img src="../img/logoweb848.png" width="200"><br>
+              3D art / animation / modeling</h2>
             <p class="text-white-50"></p>
             <p class="lead mb-5 text-white-50">
               3D software: Blender, Cinema 4D, Houdini, ZBrush
